@@ -28,8 +28,8 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
-      working-directory: ./src/dotnet/ElasticIngest/ElasticIngest.sln
+      working-directory: ./src/dotnet/ElasticIngest
       
     - name: Build
       run: dotnet build --configuration Release --no-restore
-      working-directory: ./src/dotnet/ElasticIngest/ElasticIngest.sln
+      working-directory: ./src/dotnet/ElasticIngest
