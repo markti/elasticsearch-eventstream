@@ -5,8 +5,7 @@ on:
   pull_request:
     branches: [ main ]
     paths:
-    - '**.cs'
-    - '**.csproj'
+    - 'dotnet/ElasticIngest'
 
 env:
   DOTNET_VERSION: '6.0.401' # The .NET SDK version to use
@@ -29,6 +28,8 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
+      working-directory: ./dotnet/ElasticIngest
       
     - name: Build
       run: dotnet build --configuration Release --no-restore
+      working-directory: ./dotnet/ElasticIngest
