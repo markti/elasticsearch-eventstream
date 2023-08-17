@@ -1,4 +1,4 @@
-name: build
+name: ci
 
 on:
   push:
@@ -32,4 +32,8 @@ jobs:
       
     - name: Build
       run: dotnet build --configuration Release --no-restore
+      working-directory: ./src/dotnet/ElasticIngest
+      
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
       working-directory: ./src/dotnet/ElasticIngest
