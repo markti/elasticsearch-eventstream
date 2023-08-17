@@ -21,4 +21,7 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ElasticIngest.Services\ElasticIngest.Services.csproj" />
+  </ItemGroup>
 </Project>

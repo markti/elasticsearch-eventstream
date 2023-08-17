@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticIngest", "ElasticIng
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticIngest.Tests", "ElasticIngest.Tests\ElasticIngest.Tests.csproj", "{27991CFD-B610-4E2B-A26D-D7B8B2FB56AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticIngest.Services", "ElasticIngest.Services\ElasticIngest.Services.csproj", "{394E0749-C92E-4EC0-9EE4-89D7FD0EF9EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{27991CFD-B610-4E2B-A26D-D7B8B2FB56AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27991CFD-B610-4E2B-A26D-D7B8B2FB56AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27991CFD-B610-4E2B-A26D-D7B8B2FB56AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394E0749-C92E-4EC0-9EE4-89D7FD0EF9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394E0749-C92E-4EC0-9EE4-89D7FD0EF9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394E0749-C92E-4EC0-9EE4-89D7FD0EF9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394E0749-C92E-4EC0-9EE4-89D7FD0EF9EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
